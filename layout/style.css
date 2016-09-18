@@ -1,5 +1,5 @@
 body{
-	font-family: 'Verdana';
+	font-family: 'Roboto';
 	text-align: justify;
 }
 nav, footer{
@@ -24,6 +24,9 @@ h1{
 h2{
 	color: #04A;
 	padding-top: 2.5%;
+}
+h1, h2{
+	font-family: 'Unlock';
 }
 header p{
 	font-size: 150%;
