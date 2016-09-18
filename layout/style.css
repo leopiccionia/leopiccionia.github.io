@@ -9,7 +9,10 @@ nav a, footer, footer a, .navbar-toggle, .navbar-toggle:hover{
 	color: #FFF;
 }
 header{
-	background-image: url('header-background.jpg');
+	background-color: #003380; 
+	background-image: url('avatar.svg');
+	background-repeat: no-repeat;
+	background-position: center;
 	text-shadow: 0px 0px 10px #111;
 	color: #FFF;
 	height: 100vh;
