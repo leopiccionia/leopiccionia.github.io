@@ -1,0 +1,51 @@
+body{
+	font-family: 'Libre Baskerville';
+	text-align: justify;
+}
+nav, footer{
+	background-color: #000;
+}
+nav a, footer, footer a, .navbar-toggle, .navbar-toggle:hover{
+	color: #FFF;
+}
+header{
+	background-color: #003380; 
+	background-image: url('avatar.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFF;
+	height: 100vh;
+}
+h1{
+	font-size: 250%;
+	padding-top: 250px;
+}
+h2{
+	color: #04A;
+	padding-top: 2.5%;
+}
+h1, h2{
+	font-family: 'Kumar One';
+}
+header p{
+	font-size: 150%;
+}
+main a{
+	color: #04A;
+}
+.panel-body{
+	height: 50vh;
+}	
+.chart{
+	height: 45vh;
+}
+.canvasjs-chart-credit{
+	display: none;
+}
+footer{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+footer .list-inline .fa{
+	font-size: 200%;
+}

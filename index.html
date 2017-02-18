@@ -4,12 +4,10 @@
 	<title>Leonardo Piccioni de Almeida</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto|Unlock' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="layout/style.css" />
-	<script src="lib/js/jquery.min.js" defer></script>
-	<script src="lib/js/bootstrap.min.js" defer></script>	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Kumar+One|Libre+Baskerville' />
+	<link rel="stylesheet" type="text/css" href="assets/style.css" />
 </head>
 <body>
 	<nav class="navbar navbar-fixed-top">
@@ -43,42 +41,38 @@
 	</header>
 	<main class="container">
 		<h2 id="presentation">Presentation</h2>
-			<p>Hello, I'm Leonardo. I'm a programmer established in São Paulo, Brazil.</p>
+			<p>Greetings! My name is Leonardo. I'm a programmer/software developer established in São Paulo, Brazil.</p>
 		
 		<h2 id="education">Education</h2>
-			<p>I'm an Information Systems undergraduate at the School of Arts, Sciences and Humanities, at the University of São Paulo (USP). You can read our curriculum <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86200&codhab=204&tipo=N">here</a>.</p>
-			<p>There I am a research at <a href="https://www.gpopai.usp.br">GPoPAI</a> (Research Group in Public Policies for Access to Information), where we develop an Android secure distro called <a href="https://www.securegen.org">Securegen</a>.</p>
+			<p>I'm an Information Systems undergraduate at the University of São Paulo (USP). You can read our curriculum <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86200&codhab=204&tipo=N">here</a>. There I am researcher at <a href="https://www.gpopai.usp.br">GPoPAI</a> (Research Group in Public Policies for Access to Information), where we develop an Android secure distro called <a href="https://www.securegen.com.br">Securegen</a>.</p>
 			<p>I'm also a graduated Informatics technician.</p>
-			<p>I'm a native Portuguese speaker, but I have advanced skills at English and Spanish languages.</p>
+			<p>I'm a native Portuguese speaker, but also a skilled English and Spanish speaker.</p>
 		
 		<h2 id="programming">Programming skills</h2>
-			<p>I'm not constrained to a single programming language. I believe that, if one really know how to code, it's easy to learn and adapt to any other programming language or paradigm.</p>
-			<p>Anyway, here are some programming languages, etc. that I used in the past:</p>
-			<ul>
-				<li>Java</li>
-				<li>C</li>
-				<li>HTML5 + CSS3 (including Bootstrap)</li>
-				<li>JavaScript (including jQuery and Angular 1.x)</li>
-				<li>PHP</li>
-				<li>SQL</li>
-				<li>Python</li>
-				<li>Lua (including MoonScript)</li>
-				<li><i>among others...</i></li>
-			</ul>
-			<p>I'm currently interested in learning C# and Clojure.</p>
-		
+			<p>I'm not constrained to a single programming language. I believe that, after you really learn how to code, it's easy to learn and adapt oneself to other programming languages and/or paradigms.</p>
+			<p>However, some of the programming languages that I used in the past include: Java, C, HTML5 + CSS3, JavaScript, PHP, Python, Lua, etc.</p>
+				<div class="panel panel-default">
+					<div class="panel-heading">Some languages I know…</div>
+					<div class="panel-body">
+						<div class="chart" id="languages-chart">
+							<!-- Thanks, Canvas.JS! -->
+						</div>
+					</div>
+				</div>
+			<p>Some languages I'm looking forward to learning are: C#, Clojure and other JVM-interpreted languages.</p>
+
 		<h2 id="interests">Interests</h2>
-			<p>I'm deeply interested in Cryptography, the theme of my graduation thesis.</p>
+			<p>I'm deeply interested in Cryptography, the theme of my graduation thesis. I'm also a Web Semantics and web standards geek.</p>
 			<p>I believe in code elegance, and coding right at first. I'm inspired by Edsger Dijkstra's body of work.</p>
-			<p>Outside the tech world, I'm interested in heraldry (study of coats of arms) and vexillology (study of flags). Other hobbies include collecting coins, banknotes, stamps, etc. and reading comics (I keep a podcast on theme with two friends).</p>
+			<p>Outside the tech world, I'm interested in heraldry (study of coats of arms) and vexillology (study of flags). Other hobbies include collecting coins, banknotes, stamps, etc. and reading comics (I maintain a related podcast with two friends).</p>
 	
 		<h2 id="projects">Projects</h2>
-			<p>I designed both current GPoPAI site and first version of Securegen site.</p>
-			<p>As a hobby, I'm a proud maintainer of an online <a href="https://www.registroheraldico.com.br">heraldic registry</a>.</p>
+			<p>I designed current GPoPAI site.</p>
+			<p>I'm a proud, hobbyist maintainer of an online <a href="https://www.registroheraldico.com.br">heraldic registry</a>.</p>
 			<p>Here are some selected GitHub projects:</p>
 			<ul>
-				<li><a href="https://github.com/leopiccionia/phpTranslate">phpTranslate</a>: a simple and fatless utility for making multi-language interfaces with PHP and JSON.</li>
-				<li><a href="https://github.com/leopiccionia/eisner">eisner</a>: a tool for helping comic creators self-publish their work, without coding notion (under construction).</li>
+				<li><a href="https://github.com/leopiccionia/phpTranslate">phpTranslate</a>: a simple and fatless utility for making multi-language interfaces; the actual implementation currently uses PHP and JSON.</li>
+				<li><a href="https://github.com/leopiccionia/eisner">eisner</a>: a tool intended to help comic creators without coding knowledge to self-host and self-publish their own works (<i>under construction</i>).</li>
 				<li><a href="https://github.com/leopiccionia/moon-chunks">moon-chunks</a>: some random code chunks I wrote with the help of Lua/MoonScript expressiveness.</li>
 			</ul>
 	</main>
@@ -92,5 +86,9 @@
 			</ul>	
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" defer></script>
+	<script src="assets/languages-chart.js"></script>
 </body>
 </html>
