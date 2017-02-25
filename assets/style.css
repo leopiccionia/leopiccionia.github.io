@@ -8,30 +8,39 @@ nav, footer{
 nav a, footer, footer a, .navbar-toggle, .navbar-toggle:hover{
 	color: #FFF;
 }
+.nav li a:hover{
+	background-color: #000;
+	color: default;
+}
 header{
-	background-color: #003380; 
+	background-color: #038;
 	background-image: url('avatar.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	color: #FFF;
 	height: 100vh;
 }
+.header-content{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 h1{
 	font-size: 250%;
-	padding-top: 250px;
 }
 h2{
-	color: #04A;
+	color: #038;
 	padding-top: 2.5%;
 }
-h1, h2{
-	font-family: 'Kumar One';
+h1, h2, nav, footer{
+	font-family: 'Yeseva One';
 }
 header p{
 	font-size: 150%;
 }
 main a{
-	color: #04A;
+	color: #038;
 }
 .panel-body{
 	height: 50vh;
