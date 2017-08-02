@@ -6,70 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css" />		
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yeseva+One|Libre+Baskerville" />
-	<style type="text/css">
-		body{
-			font-family: 'Libre Baskerville';
-			text-align: justify;
-		}
-		nav, footer{
-			background-color: #000;
-		}
-		nav a, footer, footer a, .navbar-toggle, .navbar-toggle:hover{
-			color: #FFF;
-		}
-		.nav li a:hover{
-			background-color: #000;
-			color: default;
-		}
-		header{
-			background-color: #038;
-			background-image: url('assets/avatar.svg');
-			background-repeat: no-repeat;
-			background-position: center;
-			color: #FFF;
-			height: 100vh;
-		}
-		.header-content{
-			text-align: center;
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-		}
-		h1{
-			font-size: 250%;
-		}
-		h2{
-			color: #038;
-			padding-top: 2.5%;
-		}
-		h1, h2, nav, footer{
-			font-family: 'Yeseva One';
-		}
-		header p{
-			font-size: 150%;
-		}
-		main a{
-			color: #038;
-		}
-		.panel-body{
-			height: 50vh;
-		}	
-		.chart{
-			height: 45vh;
-		}
-		.canvasjs-chart-credit{
-			display: none;
-		}
-		footer{
-			margin-top: 20px;
-			padding-top: 20px;
-		}
-		footer .list-inline .fa{
-			font-size: 200%;
-		}	
-	</style>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:700" />
 </head>
 <body>
 	<nav class="navbar navbar-fixed-top">
@@ -97,8 +34,8 @@
 	<header>
 		<div class="header-content">
 			<h1>Leonardo Piccioni de Almeida</h1>
-			<p>Software developer</p>
-			<p><i class="octicon octicon-location"></i> São Paulo, Brazil</p>
+			<p>A software developer in love with elegance, crypto and the web</p>
+			<p><i class="fa fa-map-marker"></i> São Paulo, Brazil</p>
 		</div>
 	</header>
 	<main class="container">
@@ -106,9 +43,9 @@
 			<p>Greetings! My name is Leonardo. I'm a programmer/software developer established in São Paulo, Brazil.</p>
 		
 		<h2 id="education">Education</h2>
-			<p>I'm an Information Systems undergraduate at the University of São Paulo (USP). You can read our curriculum <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86200&codhab=204&tipo=N">here</a>. There I am researcher at <a href="https://www.gpopai.usp.br">GPoPAI</a> (Research Group in Public Policies for Access to Information), where we develop an Android secure distro called <a href="https://www.securegen.com.br">Securegen</a>.</p>
+			<p>I'm graduated in Information Systems at the University of São Paulo (USP). There I was a researcher at <a href="https://www.gpopai.usp.br">GPoPAI</a> (Research Group in Public Policies for Access to Information), where we develop an Android secure distro called <a href="https://www.securegen.com.br">Securegen</a>.</p>
 			<p>I'm also a graduated Informatics technician.</p>
-			<p>I'm a native Portuguese speaker, but also a skilled English and Spanish speaker.</p>
+			<p>My native language is Portuguese, but I'm also a skilled English and Spanish speaker.</p>
 		
 		<h2 id="programming">Programming skills</h2>
 			<p>I'm not constrained to a single programming language. I believe that, after you really learn how to code, it's easy to learn and adapt oneself to other programming languages and/or paradigms.</p>
@@ -121,33 +58,98 @@
 						</div>
 					</div>
 				</div>
-			<p>Some languages I'm looking forward to learning are: C#, Clojure and other JVM-interpreted languages.</p>
+			<p>Some languages I'm looking forward to learn and use are: C#, Kotlin, Clojure and other JVM-interpreted languages.</p>
 
 		<h2 id="interests">Interests</h2>
 			<p>I'm deeply interested in Cryptography, the theme of my graduation thesis. I'm also a Web Semantics and web standards geek.</p>
-			<p>I believe in code elegance, and coding right at first. I'm inspired by Edsger Dijkstra's body of work.</p>
+			<p>I believe in code elegance, and coding right as default. I'm inspired by Edsger W. Dijkstra's body of work.</p>
 			<p>Outside the tech world, I'm interested in heraldry (study of coats of arms) and vexillology (study of flags). Other hobbies include collecting coins, banknotes, stamps, etc. and reading comics (I maintain a related podcast with two friends).</p>
 	
 		<h2 id="projects">Projects</h2>
-			<p>I designed current GPoPAI site.</p>
-			<p>I'm a proud, hobbyist maintainer of an online <a href="https://www.registroheraldico.com.br">heraldic registry</a>.</p>
+			<p>I've designed current GPoPAI site.</p>
+			<p>I'm a proud, hobbyist maintainer of an online <a href="https://www.registroheraldico.com.br">heraldic registry</a>, developed in PHP.</p>
 			<p>Here are some selected GitHub projects:</p>
 			<ul>
+				<li><a href="https://github.com/leopiccionia/easyprint">easyprint</a>: a wrapper of <code>java.lang.StringBuilder</code>, etc.</li>
 				<li><a href="https://github.com/leopiccionia/phpTranslate">phpTranslate</a>: a simple and fatless utility for making multi-language interfaces; the actual implementation currently uses PHP and JSON.</li>
+				<li><a href="https://github.com/leopiccionia/lua-wolfram">lua-wolfram</a>: a wrapper of Wolfram|Alpha API for Lua.</li>
 				<li><a href="https://github.com/leopiccionia/eisner">eisner</a>: a tool intended to help comic creators without coding knowledge to self-host and self-publish their own works (<i>under construction</i>).</li>
-				<li><a href="https://github.com/leopiccionia/moon-chunks">moon-chunks</a>: some random code chunks I wrote with the help of Lua/MoonScript expressiveness.</li>
 			</ul>
 	</main>
 	<footer>
 		<div id="contact" class="container text-center">
 			<p>leopiccionia<i class="fa fa-at"></i>gmail.com</p>
+			<p>+55 11 97281-2716</p>
 			<ul class="list-inline">
 				<li><a href="https://github.com/leopiccionia"><i class="fa fa-lg fa-github"></i></a></li>
 				<li><a href="https://bitbucket.org/leopiccionia"><i class="fa fa-lg fa-bitbucket"></i></a></li>
-				<li><a href="https://facebook.com/leonardopiccionidealmeida"><i class="fa fa-lg fa-facebook-official"></i></a></li>				
+				<li><a href="https://facebook.com/leonardopiccionidealmeida"><i class="fa fa-lg fa-facebook-official"></i></a></li>
+				<li><a href="https://br.linkedin.com/in/leonardo-piccioni-de-almeida-57a65466"><i class="fa fa-lg fa-linkedin-square"></i></a>
 			</ul>	
 		</div>
 	</footer>
+	<style type="text/css">
+		body{
+			font-family: 'Montserrat';
+			text-align: justify;
+		}
+		nav, footer{
+			background-color: #000;
+		}
+		nav a, footer, footer a, .navbar-toggle, .navbar-toggle:hover{
+			color: #FFF;
+		}
+		.nav li a:hover{
+			background-color: #FFF;
+			color: #000;
+		}
+		header{
+			background-color: #038;
+			background-image: url('assets/avatar.svg');
+			background-repeat: no-repeat;
+			background-position: center;
+			color: #FFF;
+			height: 100vh;
+		}
+		.header-content{
+			text-align: center;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		h1{
+			font-size: 250%;
+		}
+		h2{
+			color: #038;
+			padding-top: 2.5%;
+		}
+		h1, h2{
+			font-family: 'Raleway';
+		}
+		header p{
+			font-size: 150%;
+		}
+		main a{
+			color: #038;
+		}
+		.panel-body{
+			height: 50vh;
+		}	
+		.chart{
+			height: 45vh;
+		}
+		.canvasjs-chart-credit{
+			display: none;
+		}
+		footer{
+			margin-top: 20px;
+			padding-top: 20px;
+		}
+		footer .list-inline .fa{
+			font-size: 200%;
+		}	
+	</style>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" defer></script>
